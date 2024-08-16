@@ -6,7 +6,7 @@ def modulo(numerator,denominator):
         return "Undefined Operation"
 
     
-    #to get acurate floating point resukt we use float division here
+    #to get acurate floating point result we use float division here
     result = numerator // denominator
     if result >= 0:
         var = int(result)

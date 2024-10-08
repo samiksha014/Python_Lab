@@ -47,7 +47,7 @@ def get_second_smallest_and_largest(lst):
     return second_smallest, second_largest
 
 
-second_smallest, second_largest = get_second_smallest_and_largest( [1.3, [1.2, 3], complex(1, 4), (4, [1, 3.5]),"sggs", {"a": 15, "b": 7, "c": 25}])
+second_smallest, second_largest = get_second_smallest_and_largest( [1.3, [1.2, 3], complex(1, 4), (4, [1, 3]),"sggs", {"a": 15, "b": 7, "c": 25}])
 print("Second smallest number:", second_smallest)
 print("Second largest number:", second_largest)
 
